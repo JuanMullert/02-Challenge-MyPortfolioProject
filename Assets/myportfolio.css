@@ -1,12 +1,10 @@
-* {
-    margin: 0%;
-    
-}
+
 
 body {
     background-color: rgb(15, 15, 15);
+      
+      
 }
-
 
 #codingbackground {
     position: absolute;
@@ -115,18 +113,19 @@ button:hover {
     margin-left: 18%;
     border-style: outset;
     border-radius: 3%;
+    flex-wrap: wrap;
     }
 
 h3 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-wrap: wrap;
     font-size: 45px;
     color: rgb(255, 8, 0);
     margin: 4%;
     margin-bottom: 0%;
     text-align: center;
+    position: relative;
 }
-
-
 
 
 
@@ -137,7 +136,8 @@ h3 {
     width: 60%;
     margin-left: 20%;
     text-align: start;
-    position: absolute;
+    flex-wrap: wrap;
+    
 }
 
 .my-work-container div{
@@ -150,9 +150,10 @@ h3 {
     margin-top: 3%;
     margin: 12px;
     padding: 3%;
-    
-
+    flex-wrap: wrap;
 }
+
+
 
 .my-work-container div:hover {
     background-color: rgb(6, 174, 155);
@@ -171,7 +172,6 @@ h3 {
     margin-top: 2%;
     
 }
-
 
 .box-2 {
     block-size: 120px;
@@ -212,5 +212,57 @@ p {
     height: 90%;
     margin-top: 1%;
     margin-bottom: 2%;
+    flex-wrap: wrap;
 
 }
+
+section {
+    margin-bottom: 0%;
+}
+
+h5 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.contact-section {
+    border: solid 10px rgb(209, 189, 189);
+    border-style: groove;
+    background-color: #561255;
+    margin-top: 2%;
+    margin-left: 26%;
+    height: max-content;
+    width: 40%;
+    padding: 3%;
+    flex-wrap: wrap;
+}
+
+.contact-section ul li {
+    margin-top: 4%;
+    margin-left: 17%;
+    color: #ffffff;
+    font-size: 30px;
+    list-style: none;
+    text-align: left;  
+    flex-wrap: wrap;
+}
+
+.contact-section a {
+    font-size: 28px;
+}
+
+
+
+.contact-section a:hover {
+    color: #09e55afe;
+}
+
+.contact-section ul li:hover {
+    color: #fffb01;
+    cursor: default;
+}
+
+
+
