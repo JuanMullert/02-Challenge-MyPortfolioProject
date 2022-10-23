@@ -264,5 +264,11 @@ h5 {
     cursor: default;
 }
 
-
+footer {
+    margin-top: 2%;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(32, 31, 30);
+    
+}
 
