@@ -7,7 +7,8 @@ In this Challenge I applied my recent coding skills and subjects that I’ve rec
 ## Screenshot
 
 
-![screencapture-127-0-0-1-5500-index-html-2022-10-23-11_58_07](https://user-images.githubusercontent.com/114509238/197405513-b4b0dcc8-4a20-4d56-b587-6152f2d3b2ad.png)
+![screencapture-juanmullert-github-io-02-Challenge-MyPortfolioProject-2022-10-24-13_27_22](https://user-images.githubusercontent.com/114509238/197598681-c9398060-f61c-4318-9c0a-d55439ab9727.png)
+
 
 
 
