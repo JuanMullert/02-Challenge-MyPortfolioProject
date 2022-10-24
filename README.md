@@ -11,6 +11,6 @@ In this Challenge I applied my recent coding skills and subjects that I’ve rec
 
 ## Deployment Link 
 
-[juanmullert.github.io/02-Challenge-MyPortfolioProject/] (juanmullert.github.io/02-Challenge-MyPortfolioProject/)
+juanmullert.github.io/02-Challenge-MyPortfolioProject/
 
 
