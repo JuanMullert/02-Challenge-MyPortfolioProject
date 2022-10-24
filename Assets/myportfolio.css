@@ -2,15 +2,135 @@
 
 body {
     background-color: rgb(15, 15, 15);
-      
-      
 }
 
-#codingbackground {
-    position: absolute;
-    width: 100%;
-    height: 85%;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 12%;
+    background-color: rgb(32, 31, 30);
+    flex-wrap: wrap;
+    z-index: 999;
 }
+
+header, li {
+    justify-content: space-between;
+}
+
+li, a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    flex-wrap: wrap;
+    }
+
+    .nav-links {
+        list-style: none;
+        border: none;
+        padding: none;
+    }
+    
+    .nav-links li {
+        display: inline-block;
+        padding: 9px 9px;
+        
+        
+    }
+    
+    .nav-links li a:hover {
+        color: rgb(212, 2, 79);
+    }
+    
+    button {
+        padding:9px 25px;
+        margin-left: 0%;
+        background-color: rgb(19, 104, 216);
+        border: none;
+        cursor: pointer;
+        font-size: 19px;
+        color: aliceblue;
+    }
+    
+    button:hover {
+        background-color: rgb(12, 154, 215);
+    }
+    
+    #myportfolio {
+        color: rgba(221, 157, 6, 0.995);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        flex-wrap: wrap;
+    }
+
+    #codingbackground {
+        position: absolute;
+        width: 100%;
+        height: 95%;
+    }
+
+@media screen and (min-width: 900px) {
+    #codingbackground {
+        height: 90%;
+    }
+}
+
+@media screen and (max-width: 1189px) {
+     #codingbackground {
+        height: 75%;
+     }
+}
+
+@media screen and (max-width: 1123px) {
+    #codingbackground {
+       height: 70%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #codingbackground {
+       height: 65%;
+    }
+}
+
+@media screen and (max-width: 935px) {
+    #codingbackground {
+       height: 60%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    #codingbackground {
+       height: 55%;
+    }
+}
+
+@media screen and (max-width: 743px) {
+    #codingbackground {
+       height: 50%;
+    }
+}
+
+@media screen and (max-width: 649px) {
+    #codingbackground {
+       height: 45%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    #codingbackground {
+       height: 40%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #codingbackground {
+       height: 35%;
+    }
+}
+
 
 #myphoto {
     position: relative;
@@ -18,6 +138,7 @@ body {
     margin-top: 0%;
     margin-left: 35%;
     border-radius: 50%;
+    flex-grow: inherit;
 }
 
 #name {
@@ -42,63 +163,8 @@ body {
     
 }
 
-li, a {
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 100;
-font-size: 20px;
-color: rgb(255, 255, 255);
-text-decoration: none;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 12%;
-    background-color: rgb(32, 31, 30);
-}
-
-header, li {
-    justify-content: space-between;
-}
-
-.nav-links {
-    list-style: none;
-    border: none;
-    padding: none;
-}
-
-
-
-.nav-links li {
-    display: inline-block;
-    padding: 9px 9px;
-    
-    
-}
-
-.nav-links li a:hover {
-    color: rgb(212, 2, 79);
-}
-
-button {
-    padding:9px 25px;
-    margin-left: 0%;
-    background-color: rgb(19, 104, 216);
-    border: none;
-    cursor: pointer;
-    font-size: 19px;
-    color: aliceblue;
-}
-
-button:hover {
-    background-color: rgb(12, 154, 215);
-}
-
-#myportfolio {
-    color: rgba(221, 157, 6, 0.995);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+#text-aboutme {
+    margin-top: 8%;
 }
 
 #aboutme {
@@ -109,12 +175,22 @@ button:hover {
     text-align: center;
     padding: 2%;
     width: 60%;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-left: 18%;
     border-style: outset;
     border-radius: 3%;
     flex-wrap: wrap;
     }
+
+    @media screen and (min-width: 100px) {
+        #aboutme {
+          position: relative;
+        }
+        
+        .contact-section nav li a {
+            flex-wrap: wrap;
+        }
+      }
 
 h3 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -127,8 +203,20 @@ h3 {
     position: relative;
 }
 
+h4 {
+    position: relative;
+    margin-top: 0%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-
+h5 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
 
 .my-work-container {
     display: block;
@@ -137,7 +225,6 @@ h3 {
     margin-left: 20%;
     text-align: start;
     flex-wrap: wrap;
-    
 }
 
 .my-work-container div{
@@ -153,24 +240,19 @@ h3 {
     flex-wrap: wrap;
 }
 
-
-
 .my-work-container div:hover {
     background-color: rgb(6, 174, 155);
 }
 
-
 .box-1 {
     block-size: 300px;
-    
 }
 
 #image1 {
     position: relative;
     width: 100%;
     height: 90%;
-    margin-top: 2%;
-    
+    margin-top: 1%;
 }
 
 .box-2 {
@@ -183,20 +265,29 @@ h3 {
 
 .box-4 {
     block-size: 120px;
-
 }
-
 .box-5 {
     block-size: 120px;
-
 }
 
-h4 {
-    position: absolute;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+@media screen and (max-width: 460px) {
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4,
+    .box-5 {
+        height: fit-content;
+    }
+}
+
+.otherimages {
+    position: relative;
+    width: 102%;
+    height: 90%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    flex-wrap: wrap;
+
 }
 
 p {
@@ -204,27 +295,6 @@ p {
     margin-top: 0%;
     margin-left: 23%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.otherimages {
-    position: relative;
-    width: 102%;
-    height: 90%;
-    margin-top: 1%;
-    margin-bottom: 2%;
-    flex-wrap: wrap;
-
-}
-
-section {
-    margin-bottom: 0%;
-}
-
-h5 {
-    color: #ffffff;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
 
 .contact-section {
@@ -249,11 +319,19 @@ h5 {
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 768px) {
+    .contact-section nav ul li {
+        word-wrap: break-word;
+     }
+
+     .nav-links ul li {
+        padding: 3px;
+     }
+}
+
 .contact-section a {
     font-size: 28px;
 }
-
-
 
 .contact-section a:hover {
     color: #09e55afe;
@@ -269,6 +347,5 @@ footer {
     align-items: center;
     padding: 30px;
     background-color: rgb(32, 31, 30);
-    
 }
 
